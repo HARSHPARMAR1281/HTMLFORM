@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARSH FORMS</title>
+    <style>
+        /*
+        
+       
+        .submit{
+            margin-top: 10px;
+            background-color:red ;
+            color: white;
+            width: 65px;
+            height:30px;
+        }*/
+
+        #H1 {
+            text-align: center;
+        }
+
+        .name {
+            block-size: auto;
+            font-weight: bolder;
+
+        }
+
+        .select {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .BUTTON {
+            font-size: 16px;
+
+            overflow: hidden;
+
+           
+
+            margin: top 58px;
+
+            
+        }
+
+        .email {
+            block-size: auto;
+
+            font-weight: bolder;
+        }
+
+        #BRANCH {
+            height: px;
+            font-weight:auto;
+            font-size: medium;
+            margin-bottom: 5px;
+        }
+        #SECTION{
+            height: px;
+            font-weight:auto;
+            font-size: medium;
+            margin-bottom: 5px;
+            margin-bottom:20px;
+        }
+        .SECTION{
+            margin-top: 6px;
+            margin-bottom: 6PX;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="H1"> THIS IS TO SUBMIT YOUR DETAILS </h1>
+    <form action="Book1.xlsx">
+        <label for="NAME"> <span class="name">NAME</span> : &ThinSpace;</label>
+        <input class="name" type="text" name="NAME" id="name" placeholder="enter your name here">
+        <br><br>
+        <label for="email"> <span class="email">EMAIL</span> : &ThinSpace;</label>
+        <input class="email" type="text" name="email" placeholder="enter your email here ">
+        <br>
+
+        <h3 class="select">
+            SELECT YOUR BRANCH
+        </h3>
+
+        <select name="BRANCH" id="BRANCH">
+            <option value="">BRANCH</option>
+            <option value="ITE">ITE</option>
+            <option value="CSE">CSE</option>
+            <option value="CCE">CCE</option>
+            <option value="AIML">AIML</option>
+            <option value="DATA SCIENTIEST">DATA SCIENTIEST</option>
+            <option value="POWER BI">POWER BI</option>
+            <option value="MECHATRONICS">MECHATRONICS</option>
+        </select>
+        <br>
+        <h3 class="SECTION">ENTER YOUR SECTION</h3>
+        
+        <select name="section" id="SECTION">
+            <option value="">SECTION</option>
+            <option value="3A">3A</option>
+            <option value="3B">3B</option>
+            <option value="3C">3C</option>
+            <option value="3D">3D</option>
+            <option value="3E">3E</option>
+            <option value="3F">3F</option>
+            <option value="3G">3G</option>
+
+        </select>
+
+    </form>
+    <button onclick="window.location.href ='try.html'"> <span class="BUTTON">SUBMIT </span> </button>
+</body>
+
+</html>
